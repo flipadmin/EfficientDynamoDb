@@ -8,7 +8,7 @@ using EfficientDynamoDb.Internal.Extensions;
 namespace EfficientDynamoDb.Internal.Signing
 {
     [StructLayout(LayoutKind.Auto)]
-    internal readonly struct SigningMetadata
+    public readonly struct SigningMetadata
     {
         public RegionEndpoint RegionEndpoint { get; }
 

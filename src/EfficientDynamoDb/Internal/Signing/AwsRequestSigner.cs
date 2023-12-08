@@ -10,7 +10,7 @@ using Microsoft.IO;
 
 namespace EfficientDynamoDb.Internal.Signing
 {
-    internal static class AwsRequestSigner
+    public static class AwsRequestSigner
     {
         private const string InvalidRequestErrorMessage = "Request URI is invalid. It must either be an absolute URI or base address must be set";
 
